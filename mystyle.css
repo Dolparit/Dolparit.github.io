@@ -1,0 +1,111 @@
+#block1 {
+    width: 70%;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #ffe3e3;
+
+}
+body{
+    background-color: #ffb7c4;
+}
+#myport {
+    color: #762d55;
+    text-align: center;
+    font-size:3vw;
+    
+}
+#myport2 {
+    color: #000000;
+    text-align: center;
+    font-size:2vw;
+}
+#block2 {
+    width: 70%;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #ffe3e3;
+    margin-top: 20px;
+}
+.myprofile {
+    width: 30%;
+    border-radius: 20px;
+}
+.myprofile2 {
+    width: 50%;
+    border-radius: 30px;
+}
+#mypro {
+    color: #762d55;
+    font-size:2vw;
+}
+#mytext{
+    color: black;
+    font-size:2vw;
+}
+#mytext2 {
+    color: #000000;;
+    font-size:2vw;
+}
+#mytext3{
+    color: #330066;
+    font-size:2vw;
+}
+#block3 {
+    width: 70%;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #ffe3e3;
+    margin-top: 20px;
+
+
+}
+#block4 {
+    width: 70%;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #ffe3e3;
+    margin-top: 20px;
+    
+}
+#block5 {
+    width: 70%;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #ffe3e3;
+    margin-top: 20px;
+}
+#block6 {
+    width: 70%;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #ffe3e3;
+    margin-top: 20px;
+}
+#image{
+    width: 10%;
+    border-radius: 10px;
+}
+#blockr {
+    position: absolute;
+    margin-top:auto ;
+    width: 25%;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #FFE4B5;
+    right: 0;
+    position: fixed;
+
+}
+#block4 #mytext ul li {
+    list-style: none;
+}
+.bigbox{
+    display: flex; 
+}
+.sbox1{
+    flex: 3;
+}
+.sbox2{
+    flex: 1;
+    position: relative;
+}
