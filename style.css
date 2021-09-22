@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ffb7c4;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.portfolio,
+.profile,
+.education,
+.exp,
+.skill,
+.contact{
+    background-color: #fff;
+    width: 70%;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.center{
+    text-align: center;
+}
+.portfolio .center img{
+    width: 30%;
+    border-radius: 10%;
+}
+.portfolio .center h4,
+.portfolio .center h1,
+.profile .center h1
+{
+    padding: 10px;
+}
+.profile .center img{
+    width: 50%;
+    height: 40%;
+    border-radius: 10%;
+}
+.content{
+    padding: 10px;
+    text-align: start;
+}
+ol li{
+    list-style: none;
+    padding-left: 20px;
+}
+.education .center img{
+    width: 20%;
+    border-radius: 50%;
+}
+.exp-img{
+    display: flex;
+    justify-content: center;
+}
+.exp-img img{
+    width: 30%;
+    border-radius: 10%;
+    padding: 5px;
+}
+.content ul li{
+    margin-left: 20px;
+}
+.contact a{
+    text-decoration: none;
+    color: #000;
+}
+.contact i:hover,.contact a:hover{
+    color: #ffb7c4;
+}
